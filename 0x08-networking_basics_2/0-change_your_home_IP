@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# configure server
-# 1. localhost resolves to 127.0.0.2
-# 2. facebook.com resolve to 8.8.8.8
-
-cp /etc/host ~/host.new
-echo "127.0.0.2  localhost" >> ~/host.new
-echo"8.8.8.8  facebook.com" >> ~/host.new
-cp -f ~/etc/hosts
