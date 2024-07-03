@@ -1,5 +1,6 @@
-# install puppet-lint
+# kill process killmenow
 
-exec { 'puppet-limit':
-    command => '/bin/gem install puppet-lint -v 2.5.0',
-}   
+exec { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
+}
