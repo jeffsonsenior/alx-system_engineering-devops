@@ -1,6 +1,5 @@
 # install puppet-lint
 
-package { 'puppet-lint':
-  ensure   => '2.1.1',
-  provider => 'gem',
-}
+exec { 'puppet-limit':
+    command => '/bin/gem install puppet-lint -v 2.5.0',
+}   
