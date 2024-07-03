@@ -1,4 +1,4 @@
-# Create file
+#The code will  Create file name school inside the /tmp dir
 file { '/tmp/school':
     ensure  => 'file',
     mode    => '0744',
